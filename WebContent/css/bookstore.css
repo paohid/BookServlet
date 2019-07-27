@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #d8d4d9;
+}
+
+#centered {
+	width: 800px;
+	text-align: left;
+	border: 0px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.header {
+	height: 79px;
+	color: #2c203d;
+	background: #7c9299;
+}
+
+.label {
+	color: #2c203d;
+	font-weight: bold;
+	font-family: "Calibri", Georgia, Serif;
+}
+
+.leftbar {
+	float: left;
+	height: 310px;
+	width: 150px;
+	background: #86abb8;
+	border: 1px solid #a59fb3;
+}
+
+.search {
+	margin-left: 15px;
+}
+
+table {
+	border-spacing: 1.5px;
+}
+
+table thead tr {
+	font-family: Arial, monospace;
+	font-size: 14px;
+}
+
+table thead tr th {
+	margin: 0px;
+	padding: 2px;
+	background-color: #86abb8;
+}
+
+table tr {
+	font-family: arial, monospace;
+	color: #2c203d;
+	font-size: 12px;
+	background-color: #7c9299;
+}
+
+table tr.classEven {
+	background-color: #7c9299;
+}
+
+table tr td,th {
+	padding: 2px;
+}
+
+#th-title {
+	width: 350px;
+}
+
+#th-author {
+	width: 200px;
+}
+
+#th-price {
+	width: 100px;
+}
+
+.classEven {
+	background-color: #7c9299;
+}
+
+a:link {
+	font-family: arial, monospace;
+	text-decoration: none;
+	color: #dabddb;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+span.tooltip_message,span.tooltip_img1 {
+	cursor: pointer;
+	display: inline-block;
+	background-color: #ba456b;
+	width: 16px;
+	height: 18px;
+	color: #2c203d;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+
+span.tooltip_message:hover {
+	background-color: #dabddb;
+}
+
+div.message {
+	background-color: #b8d2db;
+	color: #000000;
+	position: absolute;
+	left: 18px;
+	top: -18px;
+	z-index: 1000000;
+	text-align: left;
+	width: 280px;
+}
+
+#menu {
+	list-style: none;
+	padding: 0 0 0 0;
+	width: 80%;
+	margin: 10px 10px 10px 10px;
+}
+
+#menu li {
+	display: block;
+	background-color: #7c9299;
+	font-weight: bold;
+	font-family: "Calibri", Georgia, Serif;
+	color: #2c203d;
+	text-align: left;
+	margin: 1px;
+	cursor: pointer;
+	padding: 10px 0 0 0;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 10px 0 0 0;
+	display: none;
+}
+
+#menu ul li {
+	font-weight: bold;
+	cursor: auto;
+	background-color: #86abb8;
+	padding: 0 0 0 7px;
+	text-align: left;
+}
